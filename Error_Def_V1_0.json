@@ -7,11 +7,13 @@
 				"code": {
 					"description": "This is the numeric code",
 					"format": "int64",
-					"type": "integer"
+					"type": "integer",
+					"example": 404
 				},
 				"message": {
 					"description": "Error message.",
-					"type": "string"
+					"type": "string",
+					"example": "Page Not Found"
 				},
 				"userMessage": {
 					"description": "Message that can be displacy to a user message.",
