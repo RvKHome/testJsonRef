@@ -1,0 +1,23 @@
+definitions:
+  Error:
+    type: object
+    title: Error object returned with HTTP error statuses
+    properties:
+      code:
+        description: This is the numeric code
+        type: integer
+      message:
+        description: Error message.
+        type: string
+      userMessage:
+        description: Message that can be displacy to a user message.
+        type: string
+      additionalInfo:
+        description: URL link containing further information related to the error.
+        type: string
+      contextId:
+        description: Identifier associated with context of this error
+        type: string
+    required:
+      - code
+      - message
